@@ -1,0 +1,5 @@
+print("Yo! " + "Looking for a shitty name for your shitty band? " + "Follow the prompts below!")
+consistency = input("What was the consistency of your last bowel movement?\n")
+color = input("What is your least favorite color?\n")
+fish = input("Name a type of fish.\n")
+print(consistency + " " + color +" " + fish + " " + "is a pretty shitty band name!")
