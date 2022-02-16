@@ -1,5 +1,5 @@
 print("Hey Cheapskate! Let's see how much you should pay if you are splitting the bill with your 'friends'.")
-bill = float(input("How much was the bill? "))
+bill = float(input("How much was the bill? $"))
 tip_percentage = float(input("What percentage do you want to tip? "))
 tip_amount = float((tip_percentage / (float(100)) * float(bill)))
 split = input("How many people did you talk in to splitting the bill with you? ")
