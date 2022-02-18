@@ -1,0 +1,40 @@
+print('''
+***************************************************
+ _________        .---"""      """---.              
+:______.-':      :  .--------------.  :             
+| ______  |      | :                : |             
+|:______B:|      | |  IDX Borker    | |             
+|:______B:|      | |                | |             
+|:______B:|      | |Make it to      | |             
+|:_____:  |      | | your desk!     | |             
+|    ==   |      | :                : |             
+|       O |      :  '--------------'  :             
+|       o |      :'---...______...---'              
+|       o |-._.-i___/'             \._              
+|'-.____o_|   '-.   '-...______...-'  `-._          
+:_________:      `.____________________   `-.___.-. 
+                 .'.eeeeeeeeeeeeeeeeee.'.      :___:
+               .'.eeeeeeeeeeeeeeeeeeeeee.'.         
+              :____________________________:
+*****************************************************
+''')
+print("Welcome to your first day at IDX Borker.")
+print("Your mission it to find your cubicle. If you fail, maybe it's just a bad day and you should go home.") 
+choice1 = input("The elevator doors open on the 4th floor and you step out of the elevator. Do you go left or right?\n").lower()
+
+if choice1 == "right":
+  choice2 = input("Look at you go! You stroll down the walkway and Lain says 'Dude... What's UP?' Do you say sup or ignore her?\n").lower()
+  if choice2 == "sup":
+    choice3 = input("Doing good buddy! Were a walkin and a talkin. Almost there. After you pass Lain do you go left, right or straight?\n").lower()
+    if choice3 == "straight":
+      print("BORK! You slipped on a golf ball and threw out your back. Go Home")
+    elif choice3 == "left":
+      print("You arrived at your desk... You win? I guess.")
+    elif choice3 == "right":
+      print("BORK! You walk in to the bighouse just as Matt is walking out with a cup of coffee. You collide in to each other causing hot coffee to go down the front of you. Go home!")
+    else:
+      print("What are you doing? That wasn't even an option. Go home!")
+  else:
+    print("BORK! Lain raises her hands in disbelief that you would shun her like that. In the process she accidentaly flips her plate of pan fried noodles in the air and now you are covered in noodles.  Go home!")
+else: 
+    print("BORK! You ran in to the wall and busted your head open. Go home!")
