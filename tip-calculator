@@ -1,4 +1,4 @@
-print("Dining out with friend? Use this calculator to know how to split the bill.")
+print("Dining out with friends? Use this calculator to know how to split the bill.")
 bill = float(input("How much was the bill? $"))
 tip_percentage = float(input("What percentage do you want to tip? "))
 tip_amount = float((tip_percentage / (float(100)) * float(bill)))
